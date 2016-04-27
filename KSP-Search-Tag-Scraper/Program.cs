@@ -57,7 +57,7 @@ namespace KSP_Search_Tag_Scraper
 
             }
 
-            using (StreamWriter newFile = new StreamWriter(outputDirectory))
+            using (StreamWriter newFile = new StreamWriter(outputDirectory+ "\\KSPTags.txt"))
             {
 
                 foreach (var outTag in dictTags)
